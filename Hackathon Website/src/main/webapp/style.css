@@ -1,0 +1,205 @@
+@charset "ISO-8859-1";
+Reset default browser styles
+body, h1, h2, p {
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-brand img{
+    clip-path: circle();
+}
+
+#nav-bar{
+    
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-bar :hover{
+    color:#ffc451;
+}
+.nav-item{
+    font-size: large;
+}
+.nav-link{
+    color: #fff;
+}
+.adminLogo{
+  margin-right: 100px;
+}
+.get-started-btn{
+    color: #fff;
+    display: flex;
+}
+.get-started-btn button{ 
+    align-self: flex-end;
+}
+
+  .rowNmiet {
+    display: flex;
+  }
+  .compPic{
+    width: 450px;
+  }
+
+  @media screen and (max-width: 1068px) {
+    .rowNmiet {
+      flex-direction: column; /* Stack elements vertically on small screens */
+    } 
+  }
+/* Features */
+ .icon-box {
+    text-align: center;
+    border: 1px solid #ebebeb;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  
+   .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+  
+  
+   .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+   .icon-box h4 a {
+    color: #151515;
+    transition: ease-in-out 0.3s;
+  }
+  
+   .icon-box h4 a:hover {
+    color: #ffc451;
+  }
+  
+   .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+   .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+  }
+  
+  #prizes .icon-box{
+    width: 450px;
+    height: 400px;
+    border: 1px solid black;
+  }
+  #prizes .icon-box h4{
+    margin-top: 130px;
+  }
+  #prizes .icon-box .icon{
+    padding: 80px 60px 20px 60px;
+  }
+  body h2{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  h2 a{
+    color: black;
+    transition: ease-in-out 0.3s;
+  }
+  h2 a:hover{
+    color: #ffc451;
+  }
+  /* FAQ Styles */
+.faq-item {
+    margin-bottom: 2rem;
+}
+
+.faq-item h3 {
+    margin-bottom: 0.5rem;
+}
+  #faq li{
+    font-size: larger;
+  }
+
+
+section {
+    padding: 4rem 0;
+    background-color: #fff;
+}
+
+section h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+section p{
+    font-size: large;
+}
+
+
+
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* footer */
+footer p {
+    font-size: 1rem;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
